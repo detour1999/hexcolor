@@ -82,8 +82,10 @@
 	        //set background
 	        $('body').css('background', 'rgb(' + color.r + ', ' + color.g + ', ' + color.b + ')');
 	        $('body').css('color', '#000');
+	        $('a').css('color', '#222');
 	        if (color.brightness() < 127){
 	            $('body').css('color', '#FFF');
+		        $('a').css('color', '#DDD');
 	        }
 	            
 	        $('#color-name').html(color.toHex());
@@ -96,6 +98,7 @@
 	    } else {
 	        $('body').css('background', '#FFF');
 	        $('body').css('color', '#000');
+	        $('a').css('color', '#222');
 	        $('#color-name').html('');
 	        $('#color-info').html('');
 	    }

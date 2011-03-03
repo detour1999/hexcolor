@@ -1,6 +1,13 @@
+ul, li {
+	margin:0;
+	padding:0;
+}
 h1, h2, h3 { font-family: 'Ubuntu', 'Permanent Marker', arial, serif; }
 #page {
 	width:400px;
 	margin:20px auto;
 	text-align:center;
+}
+li {
+	display: inline;
 }
